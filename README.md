@@ -23,7 +23,7 @@ module "codecommit" {
   sourcecode = var.source_code
 }
 
-variable {
+variable "name" {
     type = string
     default = "name-of-the-repo"
 }
