@@ -16,7 +16,7 @@ Terraform 0.12 or greater
 ### Usage
 
 ```
-module "codecommit" {
+module "codebuild" {
   source = "github.com/AdityaRanjanSingh/aws-terraform-codebuild"
   name       = var.name
   artifact   = var.artifact
